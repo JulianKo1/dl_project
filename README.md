@@ -3,11 +3,11 @@
 
 1. Pull the image from my repository:
 
-`docker pull jull1ll/fal_detector`
+`docker pull jull1ll/faldetectordemo`
 
 2. Run the container:
 
-`docker run jull1ll/fal_detector`
+`docker run jull1ll/faldetectordemo`
 
 ## Building the image using local machine
 1. Clone the project:
