@@ -20,7 +20,7 @@
 
 3. Download model weights:
 
-`bash weights/download_weights.sh`
+`bash FALdetector/weights/download_weights.sh`
 
 4. Build the image:
 
