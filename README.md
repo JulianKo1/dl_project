@@ -30,7 +30,7 @@
 
 `docker run faldetectordemo`
 
-## Outputting results to your machine
+## Saving results to your machine
 1. Figure out container's id:
 
 `docker ps -a`
