@@ -12,18 +12,21 @@
 ## Building the image using local machine
 1. Clone the project:
 
-
 `git clone https://github.com/JulianKo1/dl_project.git`
 
 2. Go to the folder of the newly cloned project:
 
 `cd <YOUR PATH>`
 
-3. Build the image:
+3. Download model weights:
+
+`bash weights/download_weights.sh`
+
+4. Build the image:
 
 `docker build -t faldetectordemo .`
 
-4. Run the container:
+5. Run the container:
 
 `docker run faldetectordemo`
 
