@@ -1,0 +1,7 @@
+dlib
+mmcv
+scipy
+numpy
+matplotlib
+opencv_python
+Pillow
