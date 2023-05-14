@@ -26,6 +26,20 @@
 4. Run the container:
 
 `docker run faldetectordemo`
+
+## Outputting results to your machine
+1. Figure out container's id:
+
+`docker ps -a`
+
+2. Copy folder with results to your machine:
+
+`docker cp <container_id>:./out/ <YOUR PATH>`
+
+### Results folder contents
+
+Folder contains your results as well as out1 and out2 (my results)
+
 ## Related links:
 + [Project page](https://paperswithcode.com/paper/detecting-photoshopped-faces-by-scripting) on Papers With Code
 
